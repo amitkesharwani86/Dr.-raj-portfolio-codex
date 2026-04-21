@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Raj Kesharwani | Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="subhero">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="Dr. Raj Kesharwani home">
+          <img src="logo.jpeg" alt="Dr. Raj Kesharwani logo" class="brand__logo">
+          <span class="brand__text">
+            <strong>Dr. Raj Kesharwani</strong>
+            <span>MBBS Aspirant Portfolio</span>
+          </span>
+        </a>
+        <div class="nav__links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="journey.html">Journey</a>
+          <a href="gallery.html" class="is-active">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <section class="subhero__content glass-card">
+        <div>
+          <p class="eyebrow">Visual Collection</p>
+          <h1 class="page-title">An interactive gallery with carousel and image wall</h1>
+          <p class="hero__text">Your sample images are featured here in a moving carousel and a responsive visual grid.</p>
+        </div>
+        <img src="Screenshot_2026-04-21-07-34-50-35_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery preview" class="subhero__image">
+      </section>
+    </header>
+
+    <main>
+      <section class="gallery section">
+        <div class="carousel glass-card">
+          <button class="carousel__control carousel__control--prev" aria-label="Previous image">&#10094;</button>
+          <div class="carousel__viewport">
+            <div class="carousel__track">
+              <figure class="carousel__slide active">
+                <img src="Screenshot_2026-04-21-07-32-39-91_1c337646f29875672b5a61192b9010f9.jpg" alt="Collection sample 1">
+                <figcaption>Focused preparation and disciplined study habits.</figcaption>
+              </figure>
+              <figure class="carousel__slide">
+                <img src="Screenshot_2026-04-21-07-33-00-12_1c337646f29875672b5a61192b9010f9.jpg" alt="Collection sample 2">
+                <figcaption>Every image reflects a step in a larger medical journey.</figcaption>
+              </figure>
+              <figure class="carousel__slide">
+                <img src="Screenshot_2026-04-21-07-33-20-25_1c337646f29875672b5a61192b9010f9.jpg" alt="Collection sample 3">
+                <figcaption>Staying inspired through routine, learning, and observation.</figcaption>
+              </figure>
+              <figure class="carousel__slide">
+                <img src="Screenshot_2026-04-21-07-33-54-31_1c337646f29875672b5a61192b9010f9.jpg" alt="Collection sample 4">
+                <figcaption>Care starts with curiosity, listening, and presence.</figcaption>
+              </figure>
+              <figure class="carousel__slide">
+                <img src="Screenshot_2026-04-21-07-34-50-35_1c337646f29875672b5a61192b9010f9.jpg" alt="Collection sample 5">
+                <figcaption>Visual memories from a growing path toward medicine.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="carousel__control carousel__control--next" aria-label="Next image">&#10095;</button>
+          <div class="carousel__indicators" aria-label="Carousel indicators"></div>
+        </div>
+      </section>
+
+      <section class="section image-grid">
+        <img class="glass-card tilt-card" src="Screenshot_2026-04-21-07-32-39-91_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery tile 1">
+        <img class="glass-card tilt-card" src="Screenshot_2026-04-21-07-33-00-12_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery tile 2">
+        <img class="glass-card tilt-card" src="Screenshot_2026-04-21-07-33-20-25_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery tile 3">
+        <img class="glass-card tilt-card" src="Screenshot_2026-04-21-07-33-54-31_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery tile 4">
+        <img class="glass-card tilt-card" src="Screenshot_2026-04-21-07-34-50-35_1c337646f29875672b5a61192b9010f9.jpg" alt="Gallery tile 5">
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
